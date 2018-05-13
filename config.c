@@ -1382,14 +1382,14 @@ void setup_config_box(struct controlbox *b, int midsession,
      * The Session panel.
      */
     str = dupprintf("%s 会话基本设置", appname);
-    ctrl_settitle(b, "Session", str);
+    ctrl_settitle(b, " 会话 ", str);
     sfree(str);
 
     if (!midsession) {
 	struct hostport *hp = (struct hostport *)
 	    ctrl_alloc(b, sizeof(struct hostport));
 
-	s = ctrl_getset(b, "Session", "hostport",
+	s = ctrl_getset(b, " 会话 ", "hostport",
 			"指定你想要的连接");
 	ctrl_columns(s, 2, 75, 25);
 	c = ctrl_editbox(s, HOST_BOX_TITLE, 'n', 100,
@@ -1427,7 +1427,7 @@ void setup_config_box(struct controlbox *b, int midsession,
     /*
      * The Load/Save panel is available even in mid-session.
      */
-    s = ctrl_getset(b, "Session", "已存的会话",
+    s = ctrl_getset(b, " 会话 ", "已存的会话",
 		    midsession ? "保存当前会话设置" :
 		    "加载,保存或者删除已保存的会话");
     ctrl_columns(s, 2, 75, 25);
@@ -1473,7 +1473,7 @@ void setup_config_box(struct controlbox *b, int midsession,
     }
     ctrl_columns(s, 1, 100);
 
-    s = ctrl_getset(b, "Session", "otheropts", NULL);
+    s = ctrl_getset(b, " 会话 ", "otheropts", NULL);
     ctrl_radiobuttons(s, "退出时关闭窗口:", 'x', 4,
                       HELPCTX(session_coe),
                       conf_radiobutton_handler,
@@ -1485,9 +1485,9 @@ void setup_config_box(struct controlbox *b, int midsession,
     /*
      * The Session/Logging panel.
      */
-    ctrl_settitle(b, "Session/Logging", "控制会话登录选项");
+    ctrl_settitle(b, " 会话 / 登录 ", "控制会话登录选项");
 
-    s = ctrl_getset(b, "Session/Logging", "main", NULL);
+    s = ctrl_getset(b, " 会话 / 登录 ", "main", NULL);
     /*
      * The logging buttons change depending on whether SSH packet
      * logging can sensibly be available.
@@ -1532,7 +1532,7 @@ void setup_config_box(struct controlbox *b, int midsession,
 
     if ((midsession && protocol == PROT_SSH) ||
 	(!midsession && backend_from_proto(PROT_SSH))) {
-	s = ctrl_getset(b, "Session/Logging", "ssh",
+	s = ctrl_getset(b, " 会话 / 登录 ", "ssh",
 			"Options specific to SSH packet logging");
 	ctrl_checkbox(s, "Omit known password fields", 'k',
 		      HELPCTX(logging_ssh_omit_password),
