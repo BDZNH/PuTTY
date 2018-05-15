@@ -7,3 +7,6 @@ mingw32-make -f Makefile.mgw
 ```
 
 来编译，编译成功后，可执行程序将会出现在*windows*目录内
+
+# 使用Visual Studio编译
+操作如上，按目录替换文件之后，双击vs2017目录内的*putty.sln*，生成解决方案。
