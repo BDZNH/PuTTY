@@ -10,3 +10,5 @@ mingw32-make -f Makefile.mgw
 
 # 使用Visual Studio编译
 操作如上，按目录替换文件之后，双击vs2017目录内的*putty.sln*，生成解决方案。
+
+直接将VS2017替换到putty源码的windows目录下，也可以直接编译原版。
