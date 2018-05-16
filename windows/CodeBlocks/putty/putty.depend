@@ -1,0 +1,1540 @@
+# depslib dependency file v1.0
+1499171456 source:d:\desktop\putty\aqsync.c
+	<assert.h>
+	"putty.h"
+
+1499171456 d:\desktop\putty\putty.h
+	<stddef.h>
+	"puttyps.h"
+	"network.h"
+	"misc.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty\puttyps.h
+	"winstuff.h"
+	"unix.h"
+
+1499171456 d:\desktop\putty\windows\\winstuff.h
+	<winsock2.h>
+	<windows.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"tree234.h"
+	"winhelp.h"
+
+1526301729 d:\desktop\putty\\tree234.h
+
+1499171456 d:\desktop\putty\windows\\winhelp.h
+
+1526447547 d:\desktop\putty\unix\\unix.h
+	"uxconfig.h"
+	<stdio.h>
+	<stdint.h>
+	<dlfcn.h>
+	"charset.h"
+	<sys/types.h>
+
+1499171456 d:\desktop\putty\charset\\charset.h
+	<stddef.h>
+
+1499171456 d:\desktop\putty\network.h
+
+1499171456 d:\desktop\putty\misc.h
+	"puttymem.h"
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+
+1499171456 d:\desktop\putty\puttymem.h
+	<stddef.h>
+	<string.h>
+
+1499171456 source:d:\desktop\putty\be_all.c
+	<stdio.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\be_misc.c
+	<assert.h>
+	<string.h>
+	"putty.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty\callback.c
+	<stddef.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\cmdline.c
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\conf.c
+	<stdio.h>
+	<stddef.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+
+1526301729 d:\desktop\putty\tree234.h
+
+1526306950 source:d:\desktop\putty\config.c
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+	"storage.h"
+
+1499171456 d:\desktop\putty\dialog.h
+
+1499171456 d:\desktop\putty\storage.h
+
+1499171456 source:d:\desktop\putty\cproxy.c
+	<assert.h>
+	<ctype.h>
+	<string.h>
+	"putty.h"
+	"ssh.h"
+	"network.h"
+	"proxy.h"
+
+1499171456 d:\desktop\putty\ssh.h
+	<stdio.h>
+	<string.h>
+	"puttymem.h"
+	"tree234.h"
+	"network.h"
+	"int64.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty\int64.h
+
+1499171456 d:\desktop\putty\proxy.h
+
+1499171456 source:d:\desktop\putty\dialog.c
+	<assert.h>
+	<limits.h>
+	<stdarg.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+
+1499171456 source:d:\desktop\putty\errsock.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty\int64.c
+	<assert.h>
+	<string.h>
+	"int64.h"
+	<stdio.h>
+
+1499171456 source:d:\desktop\putty\ldisc.c
+	<stdio.h>
+	<ctype.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+	"ldisc.h"
+
+1499171456 d:\desktop\putty\terminal.h
+	"tree234.h"
+
+1499171456 d:\desktop\putty\ldisc.h
+
+1499171456 source:d:\desktop\putty\ldiscucs.c
+	<stdio.h>
+	<ctype.h>
+	"putty.h"
+	"terminal.h"
+	"ldisc.h"
+
+1499171456 source:d:\desktop\putty\logging.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<assert.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\minibidi.c
+	<stdlib.h>
+	"misc.h"
+	<stdio.h>
+	<assert.h>
+
+1526300247 source:d:\desktop\putty\misc.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<limits.h>
+	<ctype.h>
+	<assert.h>
+	"putty.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty\miscucs.c
+	"putty.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty\noshare.c
+	<stdio.h>
+	<assert.h>
+	<errno.h>
+	"tree234.h"
+	"putty.h"
+	"ssh.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty\pgssapi.c
+	"putty.h"
+	"pgssapi.h"
+
+1499171456 d:\desktop\putty\pgssapi.h
+	"putty.h"
+	<gssapi/gssapi.h>
+
+1499171456 source:d:\desktop\putty\pinger.c
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\portfwd.c
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\proxy.c
+	<assert.h>
+	<ctype.h>
+	<string.h>
+	"putty.h"
+	"network.h"
+	"proxy.h"
+
+1499171456 source:d:\desktop\putty\raw.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\rlogin.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<ctype.h>
+	"putty.h"
+
+1526309890 source:d:\desktop\putty\sercfg.c
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+	"storage.h"
+
+1499171456 source:d:\desktop\putty\settings.c
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	"storage.h"
+
+1526452906 source:d:\desktop\putty\ssh.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<assert.h>
+	<limits.h>
+	<signal.h>
+	"putty.h"
+	"pageant.h"
+	"tree234.h"
+	"storage.h"
+	"ssh.h"
+	"sshgssc.h"
+	"sshgss.h"
+
+1499171456 d:\desktop\putty\pageant.h
+	<stdarg.h>
+
+1499171456 d:\desktop\putty\sshgssc.h
+	"putty.h"
+	"pgssapi.h"
+	"sshgss.h"
+
+1499171456 d:\desktop\putty\sshgss.h
+	"putty.h"
+	"pgssapi.h"
+
+1499171456 source:d:\desktop\putty\sshaes.c
+	<assert.h>
+	<stdlib.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\ssharcf.c
+	<assert.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshblowf.c
+	<assert.h>
+	<stdio.h>
+	"ssh.h"
+	"sshblowf.h"
+
+1499171456 d:\desktop\putty\sshblowf.h
+
+1499171456 source:d:\desktop\putty\sshbn.c
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<ctype.h>
+	"misc.h"
+	"sshbn.h"
+	"ssh.h"
+
+1499171456 d:\desktop\putty\sshbn.h
+	<intrin.h>
+
+1499171456 source:d:\desktop\putty\sshccp.c
+	"ssh.h"
+	"sshbn.h"
+
+1499171456 source:d:\desktop\putty\sshcrc.c
+	<stdlib.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshcrcda.c
+	<assert.h>
+	"misc.h"
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshdes.c
+	<assert.h>
+	"ssh.h"
+	<stdlib.h>
+
+1499171456 source:d:\desktop\putty\sshdh.c
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshdss.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"ssh.h"
+	"misc.h"
+
+1526301097 source:d:\desktop\putty\sshecc.c
+	<stdlib.h>
+	<assert.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshgssc.c
+	"putty.h"
+	<string.h>
+	"sshgssc.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty\sshmd5.c
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshpubk.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"putty.h"
+	"ssh.h"
+	"misc.h"
+
+1526302227 source:d:\desktop\putty\sshrand.c
+	"putty.h"
+	"ssh.h"
+	<assert.h>
+
+1499171456 source:d:\desktop\putty\sshrsa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"ssh.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty\sshsh256.c
+	"ssh.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
+1499171456 source:d:\desktop\putty\sshsh512.c
+	"ssh.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
+1499171456 source:d:\desktop\putty\sshsha.c
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshshare.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<limits.h>
+	<errno.h>
+	"putty.h"
+	"tree234.h"
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty\sshzlib.c
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"ssh.h"
+	<stdio.h>
+	<string.h>
+
+1499171456 source:d:\desktop\putty\telnet.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\terminal.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+	<time.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+
+1499171456 source:d:\desktop\putty\timing.c
+	<assert.h>
+	<stdio.h>
+	"putty.h"
+	"tree234.h"
+
+1499171456 source:d:\desktop\putty\tree234.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"tree234.h"
+	"puttymem.h"
+	<stdarg.h>
+
+1499171456 source:d:\desktop\putty\version.c
+	"empty.h"
+	"version.h"
+
+1526310524 d:\desktop\putty\empty.h
+
+1499171456 d:\desktop\putty\version.h
+
+1499171456 source:d:\desktop\putty\wcwidth.c
+	<wchar.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\wildcard.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\x11fwd.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<time.h>
+	"putty.h"
+	"ssh.h"
+	"tree234.h"
+
+1499171456 source:d:\desktop\putty\windows\putty.rc
+	"rcstuff.h"
+	"win_res.rc2"
+
+1499171456 d:\desktop\putty\windows\rcstuff.h
+	<win.h>
+	<winresrc.h>
+	<winres.h>
+
+1499171456 d:\desktop\putty\windows\win_res.rc2
+	"win_res.h"
+	"version.rc2"
+
+1499171456 d:\desktop\putty\windows\win_res.h
+
+1526298625 d:\desktop\putty\windows\version.rc2
+	"../version.h"
+	"../licence.h"
+
+1499171456 d:\desktop\putty\licence.h
+
+1499171456 source:d:\desktop\putty\windows\wincapi.c
+	"putty.h"
+	"wincapi.h"
+
+1499171456 d:\desktop\putty\\putty.h
+	<stddef.h>
+	"puttyps.h"
+	"network.h"
+	"misc.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty\\puttyps.h
+	"winstuff.h"
+	"unix.h"
+
+1499171456 d:\desktop\putty\\network.h
+
+1499171456 d:\desktop\putty\\misc.h
+	"puttymem.h"
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+
+1499171456 d:\desktop\putty\\puttymem.h
+	<stddef.h>
+	<string.h>
+
+1499171456 d:\desktop\putty\windows\wincapi.h
+
+1526307280 source:d:\desktop\putty\windows\wincfg.c
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+	"storage.h"
+
+1499171456 d:\desktop\putty\\dialog.h
+
+1499171456 d:\desktop\putty\\storage.h
+
+1526300410 source:d:\desktop\putty\windows\winctrls.c
+	<assert.h>
+	<ctype.h>
+	"putty.h"
+	"misc.h"
+	"dialog.h"
+	<commctrl.h>
+
+1499171456 source:d:\desktop\putty\windows\windefs.c
+	"putty.h"
+	<commctrl.h>
+
+1526367187 source:d:\desktop\putty\windows\windlg.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<assert.h>
+	<ctype.h>
+	<time.h>
+	"putty.h"
+	"ssh.h"
+	"win_res.h"
+	"storage.h"
+	"dialog.h"
+	"licence.h"
+	<commctrl.h>
+	<commdlg.h>
+	<shellapi.h>
+
+1499171456 d:\desktop\putty\\ssh.h
+	<stdio.h>
+	<string.h>
+	"puttymem.h"
+	"tree234.h"
+	"network.h"
+	"int64.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty\\int64.h
+
+1499171456 d:\desktop\putty\\licence.h
+
+1499171456 source:d:\desktop\putty\windows\wingss.c
+	"putty.h"
+	<security.h>
+	"pgssapi.h"
+	"sshgss.h"
+	"sshgssc.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty\\pgssapi.h
+	"putty.h"
+	<gssapi/gssapi.h>
+
+1499171456 d:\desktop\putty\\sshgss.h
+	"putty.h"
+	"pgssapi.h"
+
+1499171456 d:\desktop\putty\\sshgssc.h
+	"putty.h"
+	"pgssapi.h"
+	"sshgss.h"
+
+1499171456 source:d:\desktop\putty\windows\winhandl.c
+	<assert.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\windows\winhelp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"putty.h"
+	<htmlhelp.h>
+
+1499171456 source:d:\desktop\putty\windows\winhsock.c
+	<stdio.h>
+	<assert.h>
+	<limits.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty\windows\winjump.c
+	<assert.h>
+	"putty.h"
+	"storage.h"
+
+1499171456 source:d:\desktop\putty\windows\winmisc.c
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	<security.h>
+
+1526454135 source:d:\desktop\putty\windows\winnet.c
+	<winsock2.h>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"putty.h"
+	"network.h"
+	"tree234.h"
+	<ws2tcpip.h>
+
+1499171456 source:d:\desktop\putty\windows\winnoise.c
+	<stdio.h>
+	"putty.h"
+	"ssh.h"
+	"storage.h"
+	<wincrypt.h>
+
+1499171456 source:d:\desktop\putty\windows\winnpc.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+	"ssh.h"
+	"winsecur.h"
+
+1499171456 d:\desktop\putty\\proxy.h
+
+1499171456 d:\desktop\putty\windows\winsecur.h
+	<aclapi.h>
+
+1526447630 source:d:\desktop\putty\windows\window.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<limits.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+	"storage.h"
+	"win_res.h"
+	"winsecur.h"
+	"winstuff.h"
+	<multimon.h>
+	<imm.h>
+	<commctrl.h>
+	<richedit.h>
+	<mmsystem.h>
+
+1499171456 d:\desktop\putty\\terminal.h
+	"tree234.h"
+
+1499171456 source:d:\desktop\putty\windows\winnps.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+	"ssh.h"
+	"winsecur.h"
+
+1499171456 source:d:\desktop\putty\windows\winpgntc.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"putty.h"
+	"pageant.h"
+	"winsecur.h"
+
+1499171456 d:\desktop\putty\\pageant.h
+	<stdarg.h>
+
+1499171456 source:d:\desktop\putty\windows\winprint.c
+	"putty.h"
+	<winspool.h>
+
+1499171456 source:d:\desktop\putty\windows\winproxy.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+
+1499171456 source:d:\desktop\putty\windows\winsecur.c
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	"winsecur.h"
+
+1499171456 source:d:\desktop\putty\windows\winser.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty\windows\winshare.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+	"ssh.h"
+	"wincapi.h"
+	"winsecur.h"
+	"noshare.c"
+
+1499171456 d:\desktop\putty\\noshare.c
+	<stdio.h>
+	<assert.h>
+	<errno.h>
+	"tree234.h"
+	"putty.h"
+	"ssh.h"
+	"network.h"
+
+1526452154 source:d:\desktop\putty\windows\winstore.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<assert.h>
+	"putty.h"
+	"storage.h"
+	<shlobj.h>
+
+1499171456 source:d:\desktop\putty\windows\wintime.c
+	"putty.h"
+	<time.h>
+
+1499171456 source:d:\desktop\putty\windows\winucs.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty\windows\winutils.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"putty.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty\windows\winx11.c
+	<ctype.h>
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"ssh.h"
+
+1499171456 d:\desktop\putty\windows\winstuff.h
+	<winsock2.h>
+	<windows.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"tree234.h"
+	"winhelp.h"
+
+1499171456 d:\desktop\putty\windows\winhelp.h
+
+1499171456 source:d:\desktop\putty\windows\sizetip.c
+	<stdio.h>
+	<stdlib.h>
+	<tchar.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\aqsync.c
+	<assert.h>
+	"putty.h"
+
+1499171456 d:\desktop\putty-src\putty.h
+	<stddef.h>
+	"puttyps.h"
+	"network.h"
+	"misc.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty-src\puttyps.h
+	"winstuff.h"
+	"unix.h"
+
+1499171456 d:\desktop\putty-src\windows\\winstuff.h
+	<winsock2.h>
+	<windows.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"tree234.h"
+	"winhelp.h"
+
+1499171456 d:\desktop\putty-src\\tree234.h
+
+1499171456 d:\desktop\putty-src\windows\\winhelp.h
+
+1499171456 d:\desktop\putty-src\unix\\unix.h
+	"uxconfig.h"
+	<stdio.h>
+	<stdint.h>
+	<dlfcn.h>
+	"charset.h"
+	<sys/types.h>
+
+1499171456 d:\desktop\putty-src\charset\\charset.h
+	<stddef.h>
+
+1499171456 d:\desktop\putty-src\network.h
+
+1499171456 d:\desktop\putty-src\misc.h
+	"puttymem.h"
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+
+1499171456 d:\desktop\putty-src\puttymem.h
+	<stddef.h>
+	<string.h>
+
+1499171456 source:d:\desktop\putty-src\be_all.c
+	<stdio.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\be_misc.c
+	<assert.h>
+	<string.h>
+	"putty.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty-src\callback.c
+	<stddef.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\cmdline.c
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\conf.c
+	<stdio.h>
+	<stddef.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+
+1499171456 d:\desktop\putty-src\tree234.h
+
+1499171456 source:d:\desktop\putty-src\config.c
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+	"storage.h"
+
+1499171456 d:\desktop\putty-src\dialog.h
+
+1499171456 d:\desktop\putty-src\storage.h
+
+1499171456 source:d:\desktop\putty-src\cproxy.c
+	<assert.h>
+	<ctype.h>
+	<string.h>
+	"putty.h"
+	"ssh.h"
+	"network.h"
+	"proxy.h"
+
+1499171456 d:\desktop\putty-src\ssh.h
+	<stdio.h>
+	<string.h>
+	"puttymem.h"
+	"tree234.h"
+	"network.h"
+	"int64.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty-src\int64.h
+
+1499171456 d:\desktop\putty-src\proxy.h
+
+1499171456 source:d:\desktop\putty-src\dialog.c
+	<assert.h>
+	<limits.h>
+	<stdarg.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+
+1499171456 source:d:\desktop\putty-src\errsock.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty-src\ldisc.c
+	<stdio.h>
+	<ctype.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+	"ldisc.h"
+
+1499171456 d:\desktop\putty-src\terminal.h
+	"tree234.h"
+
+1499171456 d:\desktop\putty-src\ldisc.h
+
+1499171456 source:d:\desktop\putty-src\ldiscucs.c
+	<stdio.h>
+	<ctype.h>
+	"putty.h"
+	"terminal.h"
+	"ldisc.h"
+
+1499171456 source:d:\desktop\putty-src\logging.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<assert.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\minibidi.c
+	<stdlib.h>
+	"misc.h"
+	<stdio.h>
+	<assert.h>
+
+1499171456 source:d:\desktop\putty-src\misc.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<limits.h>
+	<ctype.h>
+	<assert.h>
+	"putty.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\miscucs.c
+	"putty.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\pgssapi.c
+	"putty.h"
+	"pgssapi.h"
+
+1499171456 d:\desktop\putty-src\pgssapi.h
+	"putty.h"
+	<gssapi/gssapi.h>
+
+1499171456 source:d:\desktop\putty-src\pinger.c
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\portfwd.c
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\proxy.c
+	<assert.h>
+	<ctype.h>
+	<string.h>
+	"putty.h"
+	"network.h"
+	"proxy.h"
+
+1499171456 source:d:\desktop\putty-src\raw.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\rlogin.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<ctype.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\sercfg.c
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+	"storage.h"
+
+1499171456 source:d:\desktop\putty-src\settings.c
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	"storage.h"
+
+1499171456 source:d:\desktop\putty-src\ssh.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<assert.h>
+	<limits.h>
+	<signal.h>
+	"putty.h"
+	"pageant.h"
+	"tree234.h"
+	"storage.h"
+	"ssh.h"
+	"sshgssc.h"
+	"sshgss.h"
+
+1499171456 d:\desktop\putty-src\pageant.h
+	<stdarg.h>
+
+1499171456 d:\desktop\putty-src\sshgssc.h
+	"putty.h"
+	"pgssapi.h"
+	"sshgss.h"
+
+1499171456 d:\desktop\putty-src\sshgss.h
+	"putty.h"
+	"pgssapi.h"
+
+1499171456 source:d:\desktop\putty-src\sshaes.c
+	<assert.h>
+	<stdlib.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\ssharcf.c
+	<assert.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshblowf.c
+	<assert.h>
+	<stdio.h>
+	"ssh.h"
+	"sshblowf.h"
+
+1499171456 d:\desktop\putty-src\sshblowf.h
+
+1499171456 source:d:\desktop\putty-src\sshbn.c
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<ctype.h>
+	"misc.h"
+	"sshbn.h"
+	"ssh.h"
+
+1499171456 d:\desktop\putty-src\sshbn.h
+	<intrin.h>
+
+1499171456 source:d:\desktop\putty-src\sshccp.c
+	"ssh.h"
+	"sshbn.h"
+
+1499171456 source:d:\desktop\putty-src\sshcrc.c
+	<stdlib.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshcrcda.c
+	<assert.h>
+	"misc.h"
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshdes.c
+	<assert.h>
+	"ssh.h"
+	<stdlib.h>
+
+1499171456 source:d:\desktop\putty-src\sshdh.c
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshdss.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"ssh.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\sshecc.c
+	<stdlib.h>
+	<assert.h>
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshgssc.c
+	"putty.h"
+	<string.h>
+	"sshgssc.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\sshmd5.c
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshpubk.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"putty.h"
+	"ssh.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\sshrand.c
+	"putty.h"
+	"ssh.h"
+	<assert.h>
+
+1499171456 source:d:\desktop\putty-src\sshrsa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"ssh.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\sshsh256.c
+	"ssh.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
+1499171456 source:d:\desktop\putty-src\sshsh512.c
+	"ssh.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
+1499171456 source:d:\desktop\putty-src\sshsha.c
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshshare.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<limits.h>
+	<errno.h>
+	"putty.h"
+	"tree234.h"
+	"ssh.h"
+
+1499171456 source:d:\desktop\putty-src\sshzlib.c
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"ssh.h"
+	<stdio.h>
+	<string.h>
+
+1499171456 source:d:\desktop\putty-src\telnet.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\terminal.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+	<time.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+
+1499171456 source:d:\desktop\putty-src\timing.c
+	<assert.h>
+	<stdio.h>
+	"putty.h"
+	"tree234.h"
+
+1499171456 source:d:\desktop\putty-src\tree234.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"tree234.h"
+	"puttymem.h"
+	<stdarg.h>
+
+1499171456 source:d:\desktop\putty-src\version.c
+	"empty.h"
+	"version.h"
+
+1499171456 d:\desktop\putty-src\empty.h
+
+1526468960 d:\desktop\putty-src\version.h
+
+1499171456 source:d:\desktop\putty-src\wcwidth.c
+	<wchar.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\wildcard.c
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\x11fwd.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<time.h>
+	"putty.h"
+	"ssh.h"
+	"tree234.h"
+
+1499171456 source:d:\desktop\putty-src\windows\sizetip.c
+	<stdio.h>
+	<stdlib.h>
+	<tchar.h>
+	"putty.h"
+
+1499171456 d:\desktop\putty-src\\putty.h
+	<stddef.h>
+	"puttyps.h"
+	"network.h"
+	"misc.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty-src\\puttyps.h
+	"winstuff.h"
+	"unix.h"
+
+1499171456 d:\desktop\putty-src\\network.h
+
+1499171456 d:\desktop\putty-src\\misc.h
+	"puttymem.h"
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+
+1499171456 d:\desktop\putty-src\\puttymem.h
+	<stddef.h>
+	<string.h>
+
+1499171456 source:d:\desktop\putty-src\windows\wincapi.c
+	"putty.h"
+	"wincapi.h"
+
+1499171456 d:\desktop\putty-src\windows\wincapi.h
+
+1499171456 source:d:\desktop\putty-src\windows\wincfg.c
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"dialog.h"
+	"storage.h"
+
+1499171456 d:\desktop\putty-src\\dialog.h
+
+1499171456 d:\desktop\putty-src\\storage.h
+
+1499171456 source:d:\desktop\putty-src\windows\putty.rc
+	"rcstuff.h"
+	"win_res.rc2"
+
+1499171456 d:\desktop\putty-src\windows\rcstuff.h
+	<win.h>
+	<winresrc.h>
+	<winres.h>
+
+1499171456 d:\desktop\putty-src\windows\win_res.rc2
+	"win_res.h"
+	"version.rc2"
+
+1499171456 d:\desktop\putty-src\windows\win_res.h
+
+1499171456 d:\desktop\putty-src\windows\version.rc2
+	"version.h"
+	"licence.h"
+
+1526468960 d:\desktop\putty-src\\version.h
+
+1499171456 d:\desktop\putty-src\\licence.h
+
+1499171456 source:d:\desktop\putty-src\windows\winctrls.c
+	<assert.h>
+	<ctype.h>
+	"putty.h"
+	"misc.h"
+	"dialog.h"
+	<commctrl.h>
+
+1499171456 source:d:\desktop\putty-src\windows\windefs.c
+	"putty.h"
+	<commctrl.h>
+
+1499171456 source:d:\desktop\putty-src\windows\windlg.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<assert.h>
+	<ctype.h>
+	<time.h>
+	"putty.h"
+	"ssh.h"
+	"win_res.h"
+	"storage.h"
+	"dialog.h"
+	"licence.h"
+	<commctrl.h>
+	<commdlg.h>
+	<shellapi.h>
+
+1499171456 d:\desktop\putty-src\\ssh.h
+	<stdio.h>
+	<string.h>
+	"puttymem.h"
+	"tree234.h"
+	"network.h"
+	"int64.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty-src\\int64.h
+
+1499171456 source:d:\desktop\putty-src\windows\window.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<limits.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+	"storage.h"
+	"win_res.h"
+	"winsecur.h"
+	<multimon.h>
+	<imm.h>
+	<commctrl.h>
+	<richedit.h>
+	<mmsystem.h>
+
+1499171456 d:\desktop\putty-src\\terminal.h
+	"tree234.h"
+
+1499171456 d:\desktop\putty-src\windows\winsecur.h
+	<aclapi.h>
+
+1499171456 source:d:\desktop\putty-src\windows\wingss.c
+	"putty.h"
+	<security.h>
+	"pgssapi.h"
+	"sshgss.h"
+	"sshgssc.h"
+	"misc.h"
+
+1499171456 d:\desktop\putty-src\\pgssapi.h
+	"putty.h"
+	<gssapi/gssapi.h>
+
+1499171456 d:\desktop\putty-src\\sshgss.h
+	"putty.h"
+	"pgssapi.h"
+
+1499171456 d:\desktop\putty-src\\sshgssc.h
+	"putty.h"
+	"pgssapi.h"
+	"sshgss.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winhandl.c
+	<assert.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winhelp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"putty.h"
+	<htmlhelp.h>
+
+1499171456 source:d:\desktop\putty-src\windows\winhsock.c
+	<stdio.h>
+	<assert.h>
+	<limits.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winjump.c
+	<assert.h>
+	"putty.h"
+	"storage.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winmisc.c
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	<security.h>
+
+1526473424 source:d:\desktop\putty-src\windows\winnet.c
+	<winsock2.h>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"putty.h"
+	"network.h"
+	"tree234.h"
+	<ws2tcpip.h>
+
+1499171456 source:d:\desktop\putty-src\windows\winnoise.c
+	<stdio.h>
+	"putty.h"
+	"ssh.h"
+	"storage.h"
+	<wincrypt.h>
+
+1499171456 source:d:\desktop\putty-src\windows\winnpc.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+	"ssh.h"
+	"winsecur.h"
+
+1499171456 d:\desktop\putty-src\\proxy.h
+
+1499171456 source:d:\desktop\putty-src\windows\winnps.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+	"ssh.h"
+	"winsecur.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winpgntc.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"putty.h"
+	"pageant.h"
+	"winsecur.h"
+
+1499171456 d:\desktop\putty-src\\pageant.h
+	<stdarg.h>
+
+1499171456 source:d:\desktop\putty-src\windows\winprint.c
+	"putty.h"
+	<winspool.h>
+
+1499171456 source:d:\desktop\putty-src\windows\winproxy.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winsecur.c
+	<stdio.h>
+	<stdlib.h>
+	"putty.h"
+	"winsecur.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winser.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"putty.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winshare.c
+	<stdio.h>
+	<assert.h>
+	"tree234.h"
+	"putty.h"
+	"network.h"
+	"proxy.h"
+	"ssh.h"
+	"wincapi.h"
+	"winsecur.h"
+	"noshare.c"
+
+1499171456 d:\desktop\putty-src\\noshare.c
+	<stdio.h>
+	<assert.h>
+	<errno.h>
+	"tree234.h"
+	"putty.h"
+	"ssh.h"
+	"network.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winstore.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<assert.h>
+	"putty.h"
+	"storage.h"
+	<shlobj.h>
+
+1499171456 source:d:\desktop\putty-src\windows\wintime.c
+	"putty.h"
+	<time.h>
+
+1499171456 source:d:\desktop\putty-src\windows\winucs.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<assert.h>
+	"putty.h"
+	"terminal.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winutils.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"putty.h"
+	"misc.h"
+
+1499171456 source:d:\desktop\putty-src\windows\winx11.c
+	<ctype.h>
+	<assert.h>
+	<stdlib.h>
+	"putty.h"
+	"ssh.h"
+

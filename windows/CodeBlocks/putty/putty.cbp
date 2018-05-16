@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="putty" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/putty" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g -O2" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../.././" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/putty" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../.././" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-D_WIN32_IE=0x0500 -DWINVER=0x0500 -D_WIN32_WINDOWS=0x0410 -D_WIN32_WINNT=0x0500" />
+			<Add option="-D_WINDOWS -DDEBUG -DWIN32S_COMPAT -D_NO_OLDNAMES" />
+			<Add directory="../../.././" />
+			<Add directory="../../../unix/" />
+			<Add directory="../../../charset/" />
+			<Add directory="../../../windows/" />
+		</Compiler>
+		<Linker>
+			<Add option="-mwindows -s -ladvapi32 -lcomdlg32 -lgdi32 -limm32 -lole32 -lshell32 -luser32" />
+		</Linker>
+		<Unit filename="../../../aqsync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../be_all.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../be_misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../callback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../charset/charset.h" />
+		<Unit filename="../../../cmdline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../cproxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../dialog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../dialog.h" />
+		<Unit filename="../../../empty.h" />
+		<Unit filename="../../../errsock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../int64.h" />
+		<Unit filename="../../../ldisc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ldisc.h" />
+		<Unit filename="../../../ldiscucs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../licence.h" />
+		<Unit filename="../../../logging.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../minibidi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../misc.h" />
+		<Unit filename="../../../miscucs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../network.h" />
+		<Unit filename="../../../noshare.c">
+			<Option compilerVar="CC" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../../../pageant.h" />
+		<Unit filename="../../../pgssapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../pgssapi.h" />
+		<Unit filename="../../../pinger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../portfwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../proxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../proxy.h" />
+		<Unit filename="../../../putty.h" />
+		<Unit filename="../../../puttymem.h" />
+		<Unit filename="../../../puttyps.h" />
+		<Unit filename="../../../raw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../rlogin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sercfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ssh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ssh.h" />
+		<Unit filename="../../../sshaes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ssharcf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshblowf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshblowf.h" />
+		<Unit filename="../../../sshbn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshbn.h" />
+		<Unit filename="../../../sshccp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshcrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshcrcda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshdes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshdh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshdss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshecc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshgss.h" />
+		<Unit filename="../../../sshgssc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshgssc.h" />
+		<Unit filename="../../../sshmd5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshpubk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshrand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshrsa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshsh256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshsh512.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshsha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshshare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../sshzlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../storage.h" />
+		<Unit filename="../../../telnet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../terminal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../terminal.h" />
+		<Unit filename="../../../timing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../tree234.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../tree234.h" />
+		<Unit filename="../../../version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../version.h" />
+		<Unit filename="../../../wcwidth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../wildcard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../x11fwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../putty.ico" />
+		<Unit filename="../../putty.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="../../puttycfg.ico" />
+		<Unit filename="../../rcstuff.h" />
+		<Unit filename="../../sizetip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../win_res.h" />
+		<Unit filename="../../wincapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../wincapi.h" />
+		<Unit filename="../../wincfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winctrls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../windefs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../windlg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../wingss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winhandl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winhelp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winhelp.h" />
+		<Unit filename="../../winhsock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winjump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winmisc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winnet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winnoise.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winnpc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winnps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winpgntc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winprint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winproxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winsecur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winsecur.h" />
+		<Unit filename="../../winser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winshare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winstore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winstuff.h" />
+		<Unit filename="../../wintime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winucs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../winx11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
